@@ -4,6 +4,10 @@ import cv2
 #カメラ等でストリーム再生の場合は引数に0等のデバイスIDを記述する
 video = cv2.VideoCapture(0)
  
+#  相対パス
+# cascade_path = r".\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
+
+# 絶対パス
 cascade_path = r"C:\Users\minatu\Python_OpenCV\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
 cascade = cv2.CascadeClassifier(cascade_path)
  
