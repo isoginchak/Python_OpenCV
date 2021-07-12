@@ -1,2 +1,4 @@
 # Python_OpenCV
-顔認証
+
+img.py 画像読み込み
+cam.py 顔認証
