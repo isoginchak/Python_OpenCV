@@ -5,10 +5,8 @@ import cv2
 video = cv2.VideoCapture(0)
  
 #  相対パス
-# cascade_path = r".\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
+cascade_path = r"opencv-master/data/haarcascades/haarcascade_frontalface_default.xml"
 
-# 絶対パス
-cascade_path = r"C:\Users\minatu\Python_OpenCV\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml"
 cascade = cv2.CascadeClassifier(cascade_path)
  
 while video.isOpened():
